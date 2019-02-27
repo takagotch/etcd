@@ -78,6 +78,17 @@ n.ApplyConfChange(cc)
 ```
 
 ```
+/tmp/etcd-download-test/etcd
+
+mv /tmp/etcd-download-test/etcd /usr/local/bin/
+etcd
+
+./bin/etcd
+
+etcdctl put mykey "this is awesome"
+etcdctl get mykey
+
+goreman start
 ```
 
 ```
